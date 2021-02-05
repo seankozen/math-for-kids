@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiplication</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/normalize.css" type = "text/css" rel="stylesheet">
+    <link href="css/style.css" type = "text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <h1>Kozen Kids Math Drills</h1>
+    <h2>Solve this multiplication problem:</h2>
+    <div class ="problem-view">
+        <p id="problemBox"></p>
+        <p id= "feedback"></p>
+    </div>
+    <form id = "answerBox">
+        <label for="answer">Answer:</label>
+        <input type = "number" name = "Answer:" id = "answer">
+        <button id="checkButton" type="button" onclick="getInputValue();" value="text">Check</button>
+        <button id="nextButton" type="button" onclick="generateMultiplicationProblem();" value="text">Next</button>
+    </form>
+
+    <button id="resetButton" type="button" value="text" onclick="resetProgram();">RESET</button>
+    <button id="exitButton" type="button" value="text" onclick="exitProgram();">EXIT</button>
+
+</body>
+
+<script src = "javascript/multiplicationApp.js"></script>
+
+
+</html>
