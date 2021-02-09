@@ -189,11 +189,14 @@ label.drill-options {
     display: inline-block;
     font-size: 1em;
     text-align: center;
-    min-width: 40%;
+    width: 50%;
     border-radius: 10px;
     background-color:crimson;
     margin-top: .5em;
     margin-bottom: 1em;
+    padding-left: 50px;
+    padding-right: 50px;
+    
 
 }
 
