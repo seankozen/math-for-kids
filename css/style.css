@@ -187,9 +187,9 @@ label.drill-options {
 
 #start-button {
     display: inline-block;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
-    width: 20%;
+    min-width: 40%;
     border-radius: 10px;
     background-color:crimson;
     margin-top: .5em;
