@@ -92,9 +92,7 @@ function checkAnswer  (num1, num2, inputVal) {
         total = num1 * num2;
     } else if (pageToOpen === "division") {
         total = num1/num2;
-    } else {
-        alert("Error!!!");
-    }
+    } 
 
     if (total == inputVal) {
         numberCorrect += 1;
