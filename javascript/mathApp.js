@@ -24,8 +24,14 @@ function generateProblem () {
     checkButton.disabled = false;
     resetButton.disabled = true;
 
-    num1 = Math.floor(Math.random() * smallNum +1);
-    num2 = Math.floor(Math.random() * largeNum +1);
+    if ((pageToOpen === "multiplication" || pageToOpen === "division") && smallNum >= 20){
+        num1 = Math.floor(Math.random() * (smallNum - 2 + 1) +2);
+        num2 = Math.floor(Math.random() * largeNum +1);
+    } else {
+        num1 = Math.floor(Math.random() * smallNum +1);
+        num2 = Math.floor(Math.random() * largeNum +1);
+    } 
+
 
     if (pageToOpen === "addition") {
         problemBox.innerHTML = `<p>${num1} + ${num2} =  ?</p>`;
@@ -124,7 +130,7 @@ function SetFocus () {
 function resetProgram () {
     numberCorrect = 0;
     problemsDone = 0;
-    generateAdditionProblem();
+    generateProblem();
 }
 
 /********* Function to Exit Drill Page **********/ 
