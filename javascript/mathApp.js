@@ -59,9 +59,7 @@ function generateProblem () {
         } else {
             generateProblem();
         }
-    } else {
-        alert("Error!!!");
-    }  
+    }
     
     SetFocus();    
     
