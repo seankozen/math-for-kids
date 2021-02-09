@@ -10,12 +10,36 @@
 
 
 <body>
-    <h1>Kozen Kids Math Drills</h1>
+    <h1>Welcome to Kozen Kids Math Drills</h1>
+    <h2 class="menu-dir">Choose what you want to practice.</h2>
     
+    <form class="menu-page">
+        <div class = drill-options>
+            <label class="drill-options" for="math">Choose your drill:</label>
+            <select name="math" id='operation'>
+                <option value="addition">Addition</option>
+                <option value="subtraction">Subtraction</option>
+                <option value="multiplication">Multiplication</option>
+                <option value="division">Division</option>
+        </select>
+        </div>
+        <div class="number-sel">  
+            <label for="largest-num">Largest number:</label>
+            <input type = "number" name = "largest-num:" id = "largest-num">
+        </div>  
+        <div class="number-sel">  
+            <label for="smallest-num">Smallest number:</label>
+            <input type = "number" name = "smallest-num:" id = "smallest-num">
+        </div>  
+        <div class="number-sel">
+            <button id="start-button" type="button" value="text">START</button>
+        </div>
+
+    </form>
 
 </body>
 
-<script src = "javascript/additionApp.js"></script>
+<script src = "javascript/menu.js"></script>
 
 
 </html>

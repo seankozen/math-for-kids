@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Subtraction</title>
+    <title>Math Drills For Kids: Addition</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/normalize.css" type = "text/css" rel="stylesheet">
-    <link href="css/style.css" type = "text/css" rel="stylesheet">
+    <link href="../css/normalize.css" type = "text/css" rel="stylesheet">
+    <link href="../css/style.css" type = "text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
     <h1>Kozen Kids Math Drills</h1>
-    <h2>Solve this subtraction problem:</h2>
+    <h2>Solve this addition problem:</h2>
     <div class ="problem-view">
         <p id="problemBox"></p>
         <p id= "feedback"></p>
@@ -20,7 +20,7 @@
         <label for="answer">Answer:</label>
         <input type = "number" name = "Answer:" id = "answer">
         <button id="checkButton" type="button" onclick="getInputValue();" value="text">Check</button>
-        <button id="nextButton" type="button" onclick="generateSubtractionProblem();" value="text">Next</button>
+        <button id="nextButton" type="button" onclick="generateProblem();" value="text">Next</button>
     </form>
 
     <button id="resetButton" type="button" value="text" onclick="resetProgram();">RESET</button>
@@ -28,7 +28,6 @@
 
 </body>
 
-<script src = "javascript/subtractionApp.js"></script>
-
+<script src = "../javascript/mathApp.js"></script>
 
 </html>

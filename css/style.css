@@ -94,7 +94,6 @@ h2 {
 #answer {
     font-size: 60px;
     width: 600px;
-    /*margin: 2px auto 2px auto;*/
     text-align: center;
     width: 20%;
     border-radius: 10px;
@@ -122,6 +121,16 @@ label {
     display: block;
 }
 
+select {
+    font-family: 'Chewy', cursive;
+    font-size: 2em;
+    min-width: 20%;
+    text-align-last: center;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+
 #resetButton, #exitButton {
     margin-top: 30px;
 }
@@ -135,3 +144,56 @@ form {
     font-size: 2em;
     justify-content: center;
 }
+
+
+/*Landing Page Elements*/
+
+.menu-page {
+    display: flex;
+    flex-direction: column;
+}
+
+label.drill-options {
+    display: inline-block;
+    font-family: 'Chewy', cursive;
+    font-size: 1.5em;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+}
+
+#operation {
+    font-size: 1.5em;;
+}
+
+.number-sel {
+    display: inline-block;
+    margin-top: 40px;
+    
+}
+
+#largest-num,
+#smallest-num {
+    text-align: center;
+    width: 20%;
+    border-radius: 10px;
+    background-color:bisque;
+}
+
+.menu-dir {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+#start-button {
+    display: inline-block;
+    font-size: 2em;
+    text-align: center;
+    width: 20%;
+    border-radius: 10px;
+    background-color:crimson;
+    margin-top: .5em;
+    margin-bottom: 1em;
+
+}
+
