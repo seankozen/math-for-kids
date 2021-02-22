@@ -4,11 +4,12 @@
 
 /*******  Elements *******/
 
-body{
+.drill-page {
     display: flex;
-    justify-items: center;
     flex-direction: column;
-    width: 100%;
+    align-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 h1 {
@@ -28,6 +29,7 @@ h2 {
     font-size: 50px;
     display: block;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 p {
@@ -155,36 +157,35 @@ button:hover {
 #feedback {
     font-family: 'Chewy', cursive;
     font-size: 50px;
-    width: 600px;
+    width: auto;
     margin-bottom: .6em;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: .4em;
     color: green;
     font-weight: bold;
     display: block;
 }
 
-#answer-box {
+ #answer-box {
     display: flex;
-    flex-wrap: wrap;
     width: auto;
+    flex-wrap: wrap;
     justify-content: center;
-}
+
+} 
 
 .answer-container {
-    width: auto;
+    width: 50%;
     margin: 0;
-    justify-content: center;
 }
 
 #answer {
     font-size: 60px;
     text-align: center;
-    width: 100%;
+    width: 40%;
     border-radius: 10px;
     background-color:cornsilk;
     margin-bottom: 2 rem;
+    margin-right: 0;
 }
 
 label {
@@ -198,6 +199,7 @@ label {
 .button-box {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #checkButton {

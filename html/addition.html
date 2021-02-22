@@ -8,23 +8,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="drill-page">
     <h1>Math4Kids: Addition</h1>
-    <h2>Solve this addition problem:</h2>
+    <h2>Solve:</h2>
     <div class ="problem-view">
         <p id="problemBox"></p>
         <p id= "feedback"></p>
     </div>
     <form id = "answer-box">
-        <div class="answer-container">
-            <label for="answer">Answer:</label>
-            <input type = "number" name = "Answer:" id = "answer">
-        </div>
-        <div class="button-box">
-            <button id="checkButton" type="button" onclick="getInputValue();" value="text">Check</button>
-            <button id="nextButton" type="button" onclick="generateProblem();" value="text">Next</button>
-        </div>
+        <label for="answer">Answer:</label>
+        <input type = "number" name = "Answer:" id = "answer">
     </form>
+    <div class="button-box">
+        <button id="checkButton" type="button" onclick="getInputValue();" value="text">Check</button>
+        <button id="nextButton" type="button" onclick="generateProblem();" value="text">Next</button>
+    </div>
 
     <div class="reset-exit">  
         <button id="resetButton" type="button" value="text" onclick="resetProgram();">RESET</button>
