@@ -8,11 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
 </head>
 
-<body class="drill-page">
-    <h1>Math4Kids: Addition</h1>
-    <h2>Solve:</h2>
+<body class="drill-page container">
+    <div class="top-header"> 
+        <h1>Math4Kids: Addition</h1>
+        <h2>Solve:</h2>
+    </div>
     <div class ="problem-view">
         <p id="problemBox"></p>
+    </div>
+    <div class="feedback-box">
         <p id= "feedback"></p>
     </div>
     <form id = "answer-box">
@@ -23,7 +27,6 @@
         <button id="checkButton" type="button" onclick="getInputValue();" value="text">Check</button>
         <button id="nextButton" type="button" onclick="generateProblem();" value="text">Next</button>
     </div>
-
     <div class="reset-exit">  
         <button id="resetButton" type="button" value="text" onclick="resetProgram();">RESET</button>
         <button id="exitButton" type="button" value="text" onclick="exitProgram();">EXIT</button>

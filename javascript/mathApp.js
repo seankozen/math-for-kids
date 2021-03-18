@@ -104,7 +104,7 @@ function checkAnswer  (num1, num2, inputVal) {
         numberCorrect += 1;
         feedback.innerHTML = `<p>CORRECT!</p>`; 
     } else {
-        feedback.innerHTML = `<p>Sorry, that's incorrect.  The answer is ${total}.</p>`; 
+        feedback.innerHTML = `<p>Oops!  The answer is ${total}.</p>`; 
     }
     
     nextButton.disabled = false;
