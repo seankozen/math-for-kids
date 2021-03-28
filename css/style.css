@@ -154,14 +154,14 @@ select {
 }
 
 #start-button {
-    display: inline-block;
-    font-size: 1.8em;
+    font-size: 1.4em;
     text-align: center;
     width: 50%;
     border-radius: 10px;
     background-color:crimson;
     margin-top: .5em;
     margin-bottom: 1em;
+    margin-left: auto;
 }
 
 /******* Components *******/
@@ -369,7 +369,7 @@ label {
     #answer {
         font-size: 60px;
     }
-    
+
     #feedback {
         font-size: 4rem;
     }
