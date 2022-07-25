@@ -4,6 +4,7 @@
  User can also select the size of the numbers in the drills.
 ## How I worked on this project
 This was a project for my children to practice their math skills.
+- Best viewed on PC or tablet.
 ## How to navigate this project
 - App can be accessed from the index.html file.
 ## Why I built the project this way
